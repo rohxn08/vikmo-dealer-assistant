@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+/venv/
+.venv/
+
+# Chroma database files
+chroma_db/
+**/chroma_db/
+
+# Data, dataset, and document files
+*.csv
+*.json
+*.md
+
+# Python caching & build folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
